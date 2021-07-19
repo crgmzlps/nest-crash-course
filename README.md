@@ -58,6 +58,19 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Commands in the CLI
+
+```bash
+# generate a new module users
+$ nest g mo users
+
+# generate a new controller users
+$ nest g co users
+
+# generate a new service users
+$ nest g s users
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
