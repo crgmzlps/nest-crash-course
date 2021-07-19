@@ -69,6 +69,12 @@ $ nest g co users
 
 # generate a new service users
 $ nest g s users
+
+# generate a new dto class for users
+$ nest g class users/models/dto/create-user.dto
+
+# generate a new entity class for users
+$  nest g class users/models/user-entity
 ```
 
 ## Support
