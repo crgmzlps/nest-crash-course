@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateUserDto } from './models/dto/create-user.dto';
-import { User } from './models/user-entity';
+import { User } from './models/user.entity';
 import { QuerySearch } from './utils/QueryParam';
 
 @Injectable()
