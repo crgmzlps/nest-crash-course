@@ -8,6 +8,7 @@ import {
   Query,
 } from '@nestjs/common';
 import {
+  ApiBadRequestResponse,
   ApiCreatedResponse,
   ApiNotFoundResponse,
   ApiOkResponse,
@@ -40,6 +41,7 @@ export class UsersController {
   }
 
   @ApiCreatedResponse({ type: User })
+  @ApiBadRequestResponse({ description: 'Validations errors' })
   @Post()
   createUser(@Body() createUserDto: CreateUserDto): User {
     return this.usersService.create(createUserDto);
