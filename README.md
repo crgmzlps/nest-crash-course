@@ -75,6 +75,9 @@ $ nest g class users/models/dto/create-user.dto
 
 # generate a new entity class for users
 $  nest g class users/models/user-entity
+
+# generate a basic crud module for products
+$  nest g resource products
 ```
 
 ## Support
